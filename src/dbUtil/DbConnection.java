@@ -10,9 +10,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DbConnection {
-    private static final String url = "jdbc:mysql://advicenas.synology.me:59713/catalog";
-    private static final String userDB = "gabrieladvice";
-    private static final String passwordDB = "Gabika597132";
+    private static final String url = "jdbc:mysql://URL";
+    private static final String userDB = "";
+    private static final String passwordDB = "";
     
     public static Connection getConnection() throws SQLException{
         
@@ -21,3 +21,4 @@ public class DbConnection {
     }
     
 }
+
